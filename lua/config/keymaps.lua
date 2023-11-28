@@ -46,6 +46,8 @@ vim.keymap.set("v", "<leader>cs", ":'<,'>sort<cr>", { desc = "Sort selected line
 vim.keymap.set("n", "ss", ":split<Return>", opts)
 vim.keymap.set("n", "sv", ":vsplit<Return>", opts)
 
+-- Tab
+vim.keymap.set("n", "te", ":tabedit")
 vim.keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 vim.keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
