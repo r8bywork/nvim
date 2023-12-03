@@ -6,8 +6,6 @@
 
 -- util.cowboy()
 local opts = { noremap = true, silent = true }
-local picked_window_id = require("window-picker").pick_window()
-vim.keymap.set("n", "<leader>we", ":lua require('window-picker').pick_window()<cr>", { desc = "Select window" })
 
 -- Remove key mappings that conflict with macOS
 vim.keymap.del("n", "<C-Up>")

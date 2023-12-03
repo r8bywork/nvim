@@ -9,6 +9,7 @@ return {
     config = function()
       require("window-picker").setup({
         hint = "floating-big-letter",
+        -- hint = "statusline-winbar",
         selection_chars = "QWEASDZXC",
         floating_big_letter = {
           font = "ansi-shadow", -- ansi-shadow |
